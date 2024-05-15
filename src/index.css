@@ -1,0 +1,300 @@
+#navbarSupportedContent {
+  margin-left: 20%;
+}
+.navbar-brand i{color:rgb(250, 60, 0) ;}
+#navbarSupportedContent .navbar-nav {
+  gap: 60px;
+  padding-top: 20px;
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(250, 60, 0);
+  font-size: 18px;
+}
+
+.Signin a {
+  text-decoration: none;
+  color: rgb(250, 60, 0);
+  font-size: 14px;
+}
+
+#pro-btn {
+  background-color: rgb(250, 60, 0);
+  border: none;
+  color: white;
+  width: 97px;
+  font-size: 9px;
+}
+
+#search {
+  /* background-image: url(images/businessman-dress-code-pointing-good-job.png); */
+  background-color: black;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#search img {}
+
+.search-container h1 {
+  color: white;
+  padding-bottom: 25px;
+  position: relative;
+ top: 28px;
+}
+
+.search-container h1 i {
+  color: rgb(250, 60, 0);
+}
+
+#search .search-box {
+  margin-left: 8%;
+  width: 85%;
+  height: 178px;
+  background-color: rgb(68, 66, 65);
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+  border: 2px solid rgb(250, 60, 0);
+
+}
+
+#search .search-box .suggestword {
+  display: flex;
+  position: absolute;
+  right: 126px;
+  padding-top: 10px;
+  color: white;
+}
+
+#search .search-box .suggestword i {
+  margin-right: 5px;
+  color: rgb(250, 60, 0);
+}
+
+#search .search-box .break-line {
+  border-top: 1px solid white;
+  content: "";
+  display: block;
+  margin-top: 2.5em ; 
+  width: 80%;
+}
+
+#search .search-box input{
+width: 95%;
+height: 45px;
+position: relative;
+    left: 136px;
+  }
+#search .search-box  .bi-search{
+  font-size: 25px;
+  position: relative;
+  left: 85px;
+
+  }
+
+#search .search-box .spanbi-search{
+  color: black;
+    position: relative;
+    right: 27px;
+  }
+
+  
+  #search .card .col-2 .pe-5 .mt-3 .countrybox {
+    background-color: rgb(255, 255, 255);
+      width: 20%;
+      padding: 0px;
+      height: 44px;
+      color: rgb(5, 5, 5);
+      border-radius: 5px;
+  }
+
+.ReactFlagsSelect-module_selectOptionValue__vS99- {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+/* button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  height: 40px
+} */
+
+#search .search-box .socialmeadia {
+  display: flex;
+  padding-left: 28%;
+  padding-top: 15px;
+  gap: 65px;
+}
+
+#search .search-box .socialmeadia .ggl a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+}
+
+#search .search-box .socialmeadia .bing a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+}
+
+#search .search-box .socialmeadia .ytb a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+}
+
+#search .search-box .socialmeadia .amzn a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+}
+
+#search .search-box .socialmeadia .ggl {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  gap: 10px;
+}
+
+#search .search-box .socialmeadia .bing {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  gap: 10px;
+}
+
+#search .search-box .socialmeadia .ytb {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  gap: 10px;
+}
+
+#search .search-box .socialmeadia .amzn {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  gap: 10px;
+}
+
+#SearchPaternftr {background-color:black;}
+#SearchPaternftr .container ul li a{color: white;}
+
+#search .output,li{
+  color: white;
+}
+#search .querybtn{
+  display: flex;
+  float: left;
+}
+
+#search .prefixbtn{
+  background-color: #FA3C00;
+  border: none;
+}
+
+#home{
+background-color: black;
+color: white;
+}
+
+#home .first {
+  background-image: url("../public/images/map3.png");
+  background-repeat: no-repeat;
+  background-size: 900px;
+  background-position: center;
+  
+}
+#home .first span{
+color: #FA3C00;
+}
+
+#home .first p{
+font-size: 18px;
+}
+#home .third span{
+color: #FA3C00;
+}
+
+#home .third p{
+font-size: 18px;
+}
+
+#home h4{
+  margin-top: 8rem;
+}
+
+
+
+#home .coma img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 7%;
+  margin-top: 100px;
+}
+
+
+#home .hero {
+   background-color: #FA3C00;
+}
+
+
+#home .hero img{
+   width: 100%;
+}
+
+.break-line {
+  border-top: 1px solid white; 
+  content: "";
+  display: block;
+  margin: 1em auto; 
+  width: 400px;
+}
+
+#home .customerlogo img{
+  width: 100%;
+}
+
+#home .secound{
+  background-color: #FA3C00;
+  height: 500px;
+}
+#home .card{
+  height: 100%;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(255, 253, 253, 0.8) inset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#home .card br{
+  border-top: 1px solid #FA3C00;
+  content: "";
+  display: block;
+  margin: 1em auto; 
+  width: 100px;
+}
+
+.card .icon{
+  color: #FA3C00;
+  font-size: 300%;
+}
