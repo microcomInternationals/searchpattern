@@ -173,24 +173,23 @@ function App() {
       .text(d => d.data.name);
   };
 
+
+
+
   return (
 
     <>
       <Router>
         <Contextapi.Provider value={{ selected, setSelected, handlePrefixButtonClick, questionPrefixes, prepositionPrefixes, comparisonPrefixes, isLoading, selectedCategory, searchResults, chartRef, data, searchQuery, handleInputChange }}>
+          <Navbar />
           <Routes>
             <Route path='/login' element={<Login />}></Route>
             <Route path='/signup' element={<Signup />}></Route>
             <Route path='/searchbox' element={<SearchBox />}></Route>
-            <Route path='/' element={<>
-              {/* Conditionally render Navbar and Footer */}
-              {['/login', '/signup'].includes(window.location.pathname) ? null : <>
-                <Navbar />
-                <Home />
-                <Footer />
-              </>}
-            </>}></Route>
+            <Route path='/' element={<Home />}></Route>
+            {/* <Route path='/about' element={<About />}></Route> */}
           </Routes>
+          <Footer />
         </Contextapi.Provider>
       </Router>
 
